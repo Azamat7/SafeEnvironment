@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/responseView"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:textSize="18dp"
+            android:textStyle="bold"/>
+
+        <com.jjoe64.graphview.GraphView
+            android:layout_width="match_parent"
+            android:layout_height="200dip"
+            android:id="@+id/graph"
+            xmlns:android="http://schemas.android.com/apk/res/android" />
+
+        <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:stretchColumns="1">
+
+            <TableRow>
+                <TextView
+                    android:padding="3dip"
+                    android:text="     0.00-2.00   2.01-9.00   9.01-15.00      >15.01"
+                    android:textSize="18dp"
+                    android:textStyle="bold"/>
+
+            </TableRow>
+            <View
+                android:layout_height="2dip"
+                android:background="#FF909090"/>
+            <TableRow>
+                <TextView
+                    android:padding="3dip"
+                    android:text="        Good       Moderate   Unhealthy     Hazardous"
+                    android:textSize="18dp"
+                    android:textStyle="bold"/>
+            </TableRow>
+        </TableLayout>
+
+        <com.jjoe64.graphview.GraphView
+            android:layout_width="match_parent"
+            android:layout_height="200dip"
+            android:id="@+id/graph1"
+            xmlns:android="http://schemas.android.com/apk/res/android" />
+
+        <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:stretchColumns="1">
+
+            <TableRow>
+                <TextView
+                    android:padding="3dip"
+                    android:text="  0.00-0.030  0.031-0.060  0.061-0.200     >0.201"
+                    android:textSize="18dp"
+                    android:textStyle="bold"/>
+
+            </TableRow>
+            <View
+                android:layout_height="2dip"
+                android:background="#FF909090"/>
+            <TableRow>
+                <TextView
+                    android:padding="3dip"
+                    android:text="        Good       Moderate     Unhealthy     Hazardous"
+                    android:textSize="18dp"
+                    android:textStyle="bold"/>
+            </TableRow>
+        </TableLayout>
+
+        <com.jjoe64.graphview.GraphView
+            android:layout_width="match_parent"
+            android:layout_height="200dip"
+            android:id="@+id/graph2"
+            xmlns:android="http://schemas.android.com/apk/res/android" />
+
+        <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:stretchColumns="1">
+
+            <TableRow>
+                <TextView
+                    android:padding="3dip"
+                    android:text="     0.00-0.02  0.021-0.05   0.051-0.15      >0.151"
+                    android:textSize="18dp"
+                    android:textStyle="bold"/>
+
+            </TableRow>
+            <View
+                android:layout_height="2dip"
+                android:background="#FF909090"/>
+            <TableRow>
+                <TextView
+                    android:padding="3dip"
+                    android:text="        Good       Moderate     Unhealthy     Hazardous"
+                    android:textSize="18dp"
+                    android:textStyle="bold"/>
+            </TableRow>
+        </TableLayout>
+
+        <com.jjoe64.graphview.GraphView
+            android:layout_width="match_parent"
+            android:layout_height="200dip"
+            android:id="@+id/graph3"
+            xmlns:android="http://schemas.android.com/apk/res/android" />
+
+        <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:stretchColumns="1">
+
+            <TableRow>
+                <TextView
+                    android:padding="3dip"
+                    android:text="        0-15           16-50         51-100             >101"
+                    android:textSize="18dp"
+                    android:textStyle="bold"/>
+
+            </TableRow>
+            <View
+                android:layout_height="2dip"
+                android:background="#FF909090"/>
+            <TableRow>
+                <TextView
+                    android:padding="3dip"
+                    android:text="        Good       Moderate   Unhealthy     Hazardous"
+                    android:textSize="18dp"
+                    android:textStyle="bold"/>
+            </TableRow>
+        </TableLayout>
+
+        <com.jjoe64.graphview.GraphView
+            android:layout_width="match_parent"
+            android:layout_height="200dip"
+            android:id="@+id/graph4"
+            xmlns:android="http://schemas.android.com/apk/res/android" />
+
+        <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:stretchColumns="1">
+
+            <TableRow>
+                <TextView
+                    android:padding="3dip"
+                    android:text="        0-30           31-80         81-150             >151"
+                    android:textSize="18dp"
+                    android:textStyle="bold"/>
+
+            </TableRow>
+            <View
+                android:layout_height="2dip"
+                android:background="#FF909090"/>
+            <TableRow>
+                <TextView
+                    android:padding="3dip"
+                    android:text="        Good       Moderate   Unhealthy     Hazardous"
+                    android:textSize="18dp"
+                    android:textStyle="bold"/>
+            </TableRow>
+        </TableLayout>
+
+        <com.jjoe64.graphview.GraphView
+            android:layout_width="match_parent"
+            android:layout_height="200dip"
+            android:id="@+id/graph5"
+            xmlns:android="http://schemas.android.com/apk/res/android" />
+
+        <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:stretchColumns="1">
+
+            <TableRow>
+                <TextView
+                    android:padding="3dip"
+                    android:text="  41-70   31-40/71-80   11-30/81-90   0-10/91-100"
+                    android:textSize="18dp"
+                    android:textStyle="bold"/>
+
+            </TableRow>
+            <View
+                android:layout_height="2dip"
+                android:background="#FF909090"/>
+            <TableRow>
+                <TextView
+                    android:padding="3dip"
+                    android:text="   Good     Moderate         Unhealthy        Hazardous"
+                    android:textSize="18dp"
+                    android:textStyle="bold"/>
+            </TableRow>
+        </TableLayout>
+
+        <com.jjoe64.graphview.GraphView
+            android:layout_width="match_parent"
+            android:layout_height="200dip"
+            android:id="@+id/graph6"
+            xmlns:android="http://schemas.android.com/apk/res/android" />
+
+        <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:stretchColumns="1">
+
+            <TableRow>
+                <TextView
+                    android:padding="3dip"
+                    android:text="         0-45          45-65          66-75             >76"
+                    android:textSize="18dp"
+                    android:textStyle="bold"/>
+
+            </TableRow>
+            <View
+                android:layout_height="2dip"
+                android:background="#FF909090"/>
+            <TableRow>
+                <TextView
+                    android:padding="3dip"
+                    android:text="        Good       Moderate   Unhealthy     Hazardous"
+                    android:textSize="18dp"
+                    android:textStyle="bold"/>
+            </TableRow>
+        </TableLayout>
+
+        <Button
+            android:id="@+id/Choose"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:text="Choose This Address"
+            style="@style/proceedButtonStyle"/>
+
+    </LinearLayout>
+
+</ScrollView>

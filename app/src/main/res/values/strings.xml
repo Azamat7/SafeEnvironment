@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">LocationHelper</string>
+    <string name="quotedesc">Welcome! Where should we deliver to?</string>
+    <string name="title_activity_maps">Map</string>
+</resources>

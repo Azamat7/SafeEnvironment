@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorSoftGreen"
+    tools:context="com.example.bunfei.location_project.ThankYouActivity">
+
+
+    <Button
+        android:id="@+id/SearchAgain"
+        style="@style/proceedButtonStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="194dp"
+        android:text="Search Again"
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/ThankYou"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_above="@+id/SearchAgain"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="60dp"
+        android:gravity="center"
+        android:text="Thank You For Using Our app and giving us more data. We hope it is useful."
+        android:textColor="@color/colorSuperGreen"
+        android:textSize="30dp" />
+</RelativeLayout>
